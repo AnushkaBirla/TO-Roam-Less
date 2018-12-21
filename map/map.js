@@ -1,5 +1,5 @@
 function initMap() {
-      // 'JSON' data included as above
+    // 'JSON' data included as above
     // let data = '[{"shelter1" : { "lat": "3445", "long": "67378" }, "shelter2" : "is my fave color"}]';
     // var obj = JSON.parse(data);
     // var locations = [];
@@ -15,6 +15,8 @@ function initMap() {
     //     locations.push(pin);
     //     i++;
     // }    
+
+    let info = '<strong>' + shelter.name + '</strong><br>\\' + postalCode + '<br>\\<a href="https://goo.gl/maps/jKNEDz4SyyH2">Get Directions</a>';
 
     var broadway = {
         info: '<strong>Chipotle on Broadway</strong><br>\

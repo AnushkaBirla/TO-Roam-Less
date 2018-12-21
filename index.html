@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
   <!-- Site made with Mobirise Website Builder v4.8.8, https://mobirise.com -->
   <meta charset="UTF-8">
@@ -8,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo2.png" type="image/x-icon">
   <meta name="description" content="">
-  <title>Home</title>
+  <title>TO Roam Less</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -19,13 +20,10 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
-
-
 </head>
+
 <body>
   <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
-
-
 
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,8 +37,6 @@
         <div class="menu-logo">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-
-
 
                 </span>
                 <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="https://mobirise.com">
@@ -68,9 +64,6 @@
 <section class="cid-qTkA127IK8 mbr-fullscreen mbr-parallax-background" id="header2-1">
 
 
-
-
-
     <div class="container align-center">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-10">
@@ -78,13 +71,13 @@
                     TO Roam Less</h1>
 
                 <p class="mbr-text pb-3 mbr-fonts-style display-5">Our mission is to help all Toronto citizens have the best quality of life possible. We can help you find a safe and warm place to stay, clothing, food, medical aid, and legal help nearby.</p>
-                <h2>Please enter your postal code</h2>
-                <form method="POST" action="./map.html">
+                <h2><br><br>Please enter your postal code:</h2>
+                <form method="POST" action="./map/map.html">
                   <div>
                     <input id="postal_code_field" type="text" name="name" placeholder="M5J 2L9">
                   </div>
                   <div>
-                    <button onclick="myFunction()" class="btn btn-md btn-secondary display-4" type="submit">Submit</button>
+                    <button onclick="getPostalCode()" class="btn btn-md btn-secondary display-4" type="submit">Submit</button>
                   </div>
                 </form>
             </div>
@@ -183,9 +176,9 @@
 </html>
 
 <script>
-function myFunction() {
-  console.log("in my function");
+function getPostalCode() {
+  console.log("in getPostalCode");
   let postalCode = document.getElementById("postal_code_field").value;
-  console.log("POSTAL CODE :: " + postalCode);
+  console.log("GOT POSTAL CODE :: " + postalCode);
 }
 </script>
