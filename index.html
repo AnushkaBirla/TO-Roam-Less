@@ -84,7 +84,7 @@
                     <input type="text" name="name" placeholder=" ">
                   </div>
                   <div>
-                    <button class="btn btn-md btn-secondary display-4" type="submit">Submit</button>
+                    <button onclick="myFunction()" id="demo" class="btn btn-md btn-secondary display-4" type="submit">Submit</button>
                   </div>
                 </form>
             </div>
@@ -98,10 +98,6 @@
 </section>
 
 <section class="cid-qTkAaeaxX5" id="footer1-2">
-
-
-
-
 
     <div class="container">
         <div class="media-container-row content text-white">
@@ -185,3 +181,9 @@
 
 </body>
 </html>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.color = "red";
+}
+</script>
