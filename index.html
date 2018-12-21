@@ -81,10 +81,10 @@
                 <h2>Please enter your postal code</h2>
                 <form method="POST" action="./map.html">
                   <div>
-                    <input type="text" name="name" placeholder=" ">
+                    <input id="postal_code_field" type="text" name="name" placeholder="M5J 2L9">
                   </div>
                   <div>
-                    <button id="demo" class="btn btn-md btn-secondary display-4" type="submit">Submit</button>
+                    <button onclick="myFunction()" class="btn btn-md btn-secondary display-4" type="submit">Submit</button>
                   </div>
                 </form>
             </div>
@@ -184,6 +184,8 @@
 
 <script>
 function myFunction() {
-  document.getElementById("demo").style.color = "blue";
+  console.log("in my function");
+  let postalCode = document.getElementById("postal_code_field").value;
+  console.log("POSTAL CODE :: " + postalCode);
 }
 </script>

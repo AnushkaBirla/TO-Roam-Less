@@ -1,5 +1,21 @@
 function initMap() {
-    
+      // 'JSON' data included as above
+    // let data = '[{"shelter1" : { "lat": "3445", "long": "67378" }, "shelter2" : "is my fave color"}]';
+    // var obj = JSON.parse(data);
+    // var locations = [];
+    // let i = 0;
+
+    // for(let shelter in obj) {
+    //     var pin = {
+    //         info: shelter.name,
+    //         lat: shelter.lat,
+    //         long: shelter.long,
+    //         index: i
+    //     };
+    //     locations.push(pin);
+    //     i++;
+    // }    
+
     var broadway = {
         info: '<strong>Chipotle on Broadway</strong><br>\
                     5224 N Broadway St<br> Chicago, IL 60640<br>\
