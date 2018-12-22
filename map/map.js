@@ -16,7 +16,7 @@ function initMap() {
     //     i++;
     // }    
 
-    let info = '<strong>' + shelter.name + '</strong><br>\\' + postalCode + '<br>\\<a href="https://goo.gl/maps/jKNEDz4SyyH2">Get Directions</a>';
+    // let info = '<strong>' + shelter.name + '</strong><br>\\' + postalCode + '<br>\\<a href="https://goo.gl/maps/jKNEDz4SyyH2">Get Directions</a>';
 
     var broadway = {
         info: '<strong>Chipotle on Broadway</strong><br>\
