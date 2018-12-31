@@ -1,3 +1,4 @@
+/* GENERAL */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -11,8 +12,9 @@ h3 {
   font-weight: 400;
 }
 
+/* NAVIGATION BAR */
 .navbar {
-  background-color: #1C64CE;
+  background-color: #333;
   padding: 0;
 }
 
@@ -37,6 +39,7 @@ h3 {
   text-decoration: none;
 }
 
+/* SUBMIT FORM */
 .form-control-lg {
   padding: 2rem 1rem;
 }
@@ -50,6 +53,8 @@ h3 {
 .btn-lg:hover {
   background-color: #63c74b;
 }
+
+/* BACKGROUND */
 
 header.masthead {
   position: relative;
@@ -84,7 +89,19 @@ header.masthead h1 {
   }
 }
 
+/* FOOTER */
+
 footer.footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.fab {
+  color: white;
+}
+
+.fab:hover {
+  color: #ff3366;
 }
